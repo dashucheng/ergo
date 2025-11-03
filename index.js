@@ -17,10 +17,10 @@ const UUID = process.env.UUID || '95dd5820-9302-4398-8209-1c4b745b6b29'; // 使�
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'wm.freegan.eu.org';        // 哪吒v1填写形式: nz.abc.com:8008  哪吒v0填写形式：nz.abc.com
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';            // 使用哪吒v1请留空，哪吒v0需填写
 const NEZHA_KEY = process.env.NEZHA_KEY || '1NyahpERgxJUIEsdWm';              // 哪吒v1的NZ_CLIENT_SECRET或哪吒v0的agent密钥
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'cf.877774.xyz';          // 固定隧道域名,留空即启用临时隧道
-const ARGO_AUTH = process.env.ARGO_AUTH || '';              // 固定隧道密钥json或token,留空即启用临时隧道,json获取地址：https://json.zone.id
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '111.freegan.eu.org';          // 固定隧道域名,留空即启用临时隧道
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiZjJmOTgyZmFkYTNlOWU4NjkwNjhmNjZhMWM5ZWJlYmMiLCJ0IjoiZGE1ZGJlNDQtNTExNC00OTBhLTg3NzUtMTY5ODA4YjQxYTQ1IiwicyI6Ik1qazFOak5tWXpBdFpqTTVaaTAwWVRBNExUbGpORGd0WW1VNFpEY3hOMlEyWWpsbSJ9';              // 固定隧道密钥json或token,留空即启用临时隧道,json获取地址：https://json.zone.id
 const ARGO_PORT = process.env.ARGO_PORT || 8001;            // 固定隧道端口,使用token需在cloudflare后台设置和这里一致
-const CFIP = process.env.CFIP || 'cdns.doon.eu.org';        // 节点优选域名或优选ip  
+const CFIP = process.env.CFIP || 'cf.877774.xyz';        // 节点优选域名或优选ip  
 const CFPORT = process.env.CFPORT || 443;                   // 节点优选域名或优选ip对应的端口
 const NAME = process.env.NAME || 'argo';                        // 节点名称
 
